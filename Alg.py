@@ -19,7 +19,7 @@ while True:
 	invalid = None
 
 	while True:
-		print('''Welcome to Alg a tole with multipal algebraic centered features!
+		print('''Welcome to Alg a tool with multipal algebraic centered features!
 		It can currently:
 			1) Act as a Calculator
 			2) Check if a number is a factor of another
@@ -33,7 +33,7 @@ while True:
 			break
 		print("Invalid input please try again!")
 
-	#* Calculator
+	# Calculator
 	if feature == '1':
 		while True:
 			while True:
@@ -92,7 +92,7 @@ while True:
 			else:
 				break
 		
-	#* Factor
+	# Factor
 	elif feature == '2':
 		while True:
 			print("Factor Checker")
@@ -126,7 +126,7 @@ while True:
 			else:
 				break
 
-	#* LCM/HCF
+	# LCM/HCF
 	elif feature == '3':
 		while True:
 			print("LCM/HCF Finder")
@@ -137,14 +137,14 @@ while True:
 			while True:
 				Num_1 = input("Enter first the number: ")
 				try:
-					Num_1 = float(Num_1)
+					Num_1 = int(Num_1)
 					break
 				except:
 					print("Invalid input please try again!")
 			while True:
 				Num_2 = input("Enter second the number: ")
 				try:
-					Num_2 = float(Num_2)
+					Num_2 = int(Num_2)
 					break
 				except:
 					print("Invalid input please try again!")
@@ -168,7 +168,7 @@ while True:
 			else:
 				break
 
-	#* Multipal
+	# Multipal
 	elif feature == '4':
 		while True:
 			print("Multipal Checker")
@@ -201,7 +201,7 @@ while True:
 			else:
 				break
 
-	#* Odd/Even
+	# Odd/Even
 	elif feature == '5':
 		while True:
 			print("Odd/Even Checker")
@@ -227,7 +227,7 @@ while True:
 			else:
 				break
 
-	#* Sine_Checker
+	# Sine_Checker
 	elif feature == '6':
 		while True:
 			print("Sine Checker")
@@ -254,6 +254,43 @@ while True:
 				break
 
 	else:
+		print()
+		print()
+
+		print()
+		print()
+		print()
+		print()
+		print()
+
+		print()
+		print()
+		print()
+
+		exit()		
+		print()
+		print()
+
+		print()
+		print()
+		print()
+
+		exit()		
+		print()
+		print()
+
+		print()
+		print()
+		print()
+
+		exit()		
+		print()
+		print()
+
+		print()
+		print()
+		print()
+
 		exit()
 
 	while True:
