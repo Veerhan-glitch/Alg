@@ -1,15 +1,15 @@
-def Sine_Checker(Num):
-    if Num > 0:  # +ve
-        return 'positive'
-    elif Num == 0:  # 0
-        return 'zero'
-    else:  # -ve
-        return 'negative'
+def Multiple(Num, Multiple_of):
+    if (Num % Multiple_of) == 0:
+        print(f"{Num} is a Multiple of {Multiple_of}.")
+        return 'is a'  # Multiple
+    else:
+        print(f"{Num} is not a Multiple of {Multiple_of}.")
+        return 'is not a'  # Not a Multiple
 
 
 def main():
     while True:
-        print("Sine Checker")
+        print("Multiple Checker")
 
         while True:
             Num = input("Enter the number: ")
@@ -19,8 +19,17 @@ def main():
             except:
                 print("Invalid input please try again!")
 
-        status = Sine_Checker(Num)
-        print(f"{Num} is {status}.")
+        while True:
+            Multiple_of = input(
+                "Enter another the number (which could be the Multiple of previous one): ")
+            try:
+                Multiple_of = float(Multiple_of)
+                break
+            except:
+                print("Invalid input please try again!")
+
+        status = Multiple(Num, Multiple_of)
+        print(f"{Num} {status} Multiple of {Multiple_of}.")
 
         # Program looping
         while True:
