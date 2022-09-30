@@ -32,6 +32,7 @@ In the future more complex functions will be included.
 |**6**|[Odd_Even](./Odd_Even.py)|.py|Python|Self made module for checking whether the inputted number is odd or even.|
 |**7**|[README](./README.py)|.md|Markdown|Contains the README file for this project ([this](./README.py) file).|
 |**8**|[Sine_Checker](./Sine_Checker.py)|.py|Python|Self made module for checking sine of the inputted number.|
+|**9**|[CONTRIBUTING](./CONTRIBUTING.md)|.md|markdown file|File contaning detals on how to contrebute.|
 
 ## Prerequisite
 
