@@ -32,8 +32,8 @@ In the future more complex functions will be included.
 |**6**|[Odd_Even](./Odd_Even.py)|.py|Python|Self made module for checking whether the inputted number is odd or even.|
 |**7**|[README](./README.py)|.md|Markdown|Contains the README file for this project ([this](./README.py) file).|
 |**8**|[Sine_Checker](./Sine_Checker.py)|.py|Python|Self made module for checking sine of the inputted number.|
-|**9**|[CONTRIBUTING](./CONTRIBUTING.md)|.md|markdown file|File contaning detals on how to contrebute.|
-
+|**9**|[Message Box Generator](./messagebox/)|.py|Directory with python files|This directory contains python program files that generate different message boxes using tkinter module.|
+|**10**|[CONTRIBUTING](./CONTRIBUTING.md)|.md|markdown
 ## Prerequisite
 
 None. To use this project you only need the code provided in the repository and to be able to run python code.
