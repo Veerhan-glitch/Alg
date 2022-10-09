@@ -1,22 +1,13 @@
-n_terms = int(input ("How many terms the user wants to print? "))  
+def fibonacciSeries(i):
+    if i <= 1:
+        return i
+    else:
+        return (fibonacciSeries(i - 1) + fibonacciSeries(i - 2))
 
-n_1 = 0  
-n_2 = 1  
-count = 0
-
-if n_terms <= 0:  
-    print ("Please enter a positive integer, the given number is not valid")  
-# if there is only one term, it will return n_1  
-elif n_terms == 1:  
-    print ("The Fibonacci sequence of the numbers up to", n_terms, ": ") 
-    print (n_1)
-
+num=int(input ("How many terms the user wants to print? "))  
+if num <=0:
+    print("Please enter a Positive Number")
 else:
-    print ("The fibonacci sequence of the numbers is:")  
-    while count < n_terms:  
-        print(n_1)  
-        nth = n_1 + n_2  
-       # At last, we will update values  
-        n_1 = n_2  
-        n_2 = nth  
-        count += 1  
+    print("Fibonacci Series:", end=" ")
+for i in range(num):
+    print(fibonacciSeries(i), end=" ")
